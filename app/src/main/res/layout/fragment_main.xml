@@ -7,12 +7,14 @@
     android:padding="10dp"
     tools:context=".MainFragment">
 
+    <!-- Круто что строки вынес в ресурсы-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:gravity="center"
         android:text="@string/exist_list_name" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
